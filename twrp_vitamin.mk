@@ -13,12 +13,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from ossi device
-$(call inherit-product, device/oplus/ossi/device.mk)
+$(call inherit-product, device/oplus/vitamin/device.mk)
 
-PRODUCT_DEVICE := ossi
-PRODUCT_NAME := twrp_ossi
+PRODUCT_DEVICE := vitamin
+PRODUCT_NAME := twrp_vitamin
 PRODUCT_BRAND := oplus
-PRODUCT_MODEL := ossi
+PRODUCT_MODEL := vitamin
 PRODUCT_MANUFACTURER := oplus
 
 PRODUCT_GMS_CLIENTID_BASE := android-oplus
