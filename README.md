@@ -1,10 +1,7 @@
 # Android device tree for oplus vitamin (ossi)
 
-```
-#
-# Copyright (C) 2024 The Android Open Source Project
-# Copyright (C) 2024 SebaUbuntu's TWRP device tree generator
-#
-# SPDX-License-Identifier: Apache-2.0
-#
-```
+# Clone
+    git clone https://github.com/MFO-STAGING/android_device_oppo_vitamin.git -b staging device/oppo/vitamin
+
+# Build
+    export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch twrp_vitamin-eng; mka vendorbootimage
